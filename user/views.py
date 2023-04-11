@@ -6,11 +6,6 @@ from django.contrib import auth  # 사용자 auth 기능
 from django.contrib.auth.decorators import login_required
 
 
-# Create your views here.
-# user/views.py
-from django.shortcuts import render, redirect
-from .models import UserModel
-
 
 # SIGN UP
 def sign_up_view(request):
